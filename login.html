@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <!-- 引入favicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 引入CSS初始化文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入登录的CSS文件 -->
+    <link rel="stylesheet" href="css/login_register.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="w" style="border-bottom: none;">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+        </div>
+    </header>
+
+    <article class="login_body">
+        <div class="w login_info">
+            <img src="img/loginbg.png" alt="">
+            <div class="loginform">
+                <div class="nav_tabs clearfix">
+                    <ul>
+                        <li><a href="#">扫描登录</a></li>
+                        <li><a href="#" class="current">账户登录</a></li>
+                    </ul>
+                </div>
+                <div class="tab_content">
+                    <form action="login.php" class="login_data">
+                        <ul>
+                            <li class="login_token">
+                                <i></i>
+                                <input type="text" placeholder="用户名/邮箱" class="login_input_text">
+                            </li>
+                            <li class="login_password">
+                                <i></i>
+                                <input type="text" placeholder="请输入密码" class="login_input_text">
+                            </li>
+                            <li class="special_data">
+                                <span class="setting">
+                                    <input type="checkbox" name="" id="auto_login" class="auto_login">
+                                    <label for="auto_login">自动登录</label>
+                                </span>
+                                <span class="forget">忘记密码？</span>
+                            </li>
+                            <li>
+                                <button class="login_btn">
+                                    登&nbsp;&nbsp;录
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="registration">
+                            <ul class="clearfix">
+                                <li>
+                                    <a href="#" class="reg_type_1"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="reg_type_2"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="reg_type_3"></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="reg_type_4"></a>
+                                </li>
+                            </ul>
+                            <a href="register.html">立即注册</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- footer -->
+    <div class="footer w">
+        <ul class="links clearfix">
+            <li>关于我们</li>
+            <li>联系我们</li>
+            <li>联系客服</li>
+            <li>商家入驻</li>
+            <li>营销中心</li>
+            <li>手机品优购</li>
+            <li>销售联盟</li>
+            <li>品优购社区</li>
+            <li>品优购公益</li>
+            <li>English Site</li>
+            <li>Contact U</li>
+        </ul>
+        <p class="copyright">
+            地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 <br>
+            京ICP备08001421号京公网安备110108007702
+        </p>
+    </div>
+</body>
+
+</html>
